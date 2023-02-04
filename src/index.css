@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  scroll-behavior: smooth;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.outLineNone:focus {
+  outline: 0;
+}
+
+@media screen and (max-width:768px) {
+  #top {
+    display: none;
+  }
+
+  #bot {
+    display: none;
+  }
+
+  #mid {
+    padding: 0px 10px;
+  }
+}
+
+
+
+
+
+
+/* .navHove1>a:hover {
+  border-bottom: 2px solid #670b19;
+} */
+
+.navHove1:hover #navHo1 {
+  display: flex;
+}
+
+/* .navHove2>a:hover {
+  border-bottom: 2px solid #670b19;
+} */
+
+.navHove2:hover #navHo2 {
+  display: flex;
+}
+
+/* .navHove3>a:hover {
+  border-bottom: 2px solid #670b19;
+} */
+
+.navHove3:hover #navHo3 {
+  display: flex;
+}
+
+/* .navHove4:hover {
+  border-bottom: 2px solid #670b19;
+} */
+
+.navHove4:hover #navHo4 {
+  display: flex;
+}
+
+/* .navHove5>a:hover {
+  border-bottom: 2px solid #670b19;
+} */
+
+.navHove5:hover #navHo5 {
+  display: flex;
+}
+/* 
+.navHove6>a:hover {
+  border-bottom: 2px solid #670b19;
+} */
+
+.navHove6:hover #navHo6 {
+  display: flex;
+}
+
+/* .navHove7>a:hover {
+  border-bottom: 2px solid #670b19;
+} */
+
+.navHove7:hover #navHo7 {
+  display: flex;
+}
+
+/* .navHove8>a:hover {
+  border-bottom: 2px solid #670b19;
+} */
+
+.navHove8:hover #navHo8 {
+  display: flex;
+}
+
+/* .navHove9>a:hover {
+  border-bottom: 2px solid #670b19;
+} */
+
+.navHove9:hover #navHo9 {
+  display: flex;
+}
+/* 
+.navHove10>a:hover {
+  border-bottom: 2px solid #670b19;
+} */
+
+.navHove10:hover #navHo10 {
+  display: flex;
+}
+
+/* .navHove11>a:hover {
+  border-bottom: 2px solid #670b19;
+} */
+
+.navHove11:hover #navHo11 {
+  display: flex;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width:7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(198, 198, 198);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #670b19;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #440a13;
+}
